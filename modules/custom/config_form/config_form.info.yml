@@ -1,0 +1,9 @@
+name: D8 Cards - Config Form
+description: D8 Cards - Config Form
+
+type: module
+core: 8.x
+
+package: Custom
+
+configure : config_form.settings

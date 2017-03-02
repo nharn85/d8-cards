@@ -1,0 +1,7 @@
+d8_cards_nicole:
+  path: '/d8-cards-nicole/config'
+  defaults:
+    _form: '\Drupal\d8_cards_nicole\Form\ContributeForm'
+    _title: 'Contribute page'
+  requirements:
+    _permission: 'administer content'
