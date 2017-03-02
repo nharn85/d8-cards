@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58669fc3-f5df-413e-bb07-7acf5bb57c52" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/README.txt" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar.libraries.yml" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar.libraries.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar.module" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/README.txt" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.libraries.yml" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.libraries.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.links.menu.yml" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.links.menu.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.module" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/css/tools.css" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/css/tools.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/misc/icons/ffffff/d8-item.svg" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/misc/icons/ffffff/d8-item.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/src/Controller/ToolbarController.php" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/src/Controller/ToolbarController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/src/Tests/AdminToolbarToolsAlterTest.php" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/admin_toolbar_tools/src/Tests/AdminToolbarToolsAlterTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/composer.json" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/css/admin.toolbar.css" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/css/admin.toolbar.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/js/admin_toolbar.js" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/js/admin_toolbar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/misc/icons/0074bd/chevron-left.svg" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/misc/icons/0074bd/chevron-left.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/misc/icons/0074bd/chevron-right.svg" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/misc/icons/0074bd/chevron-right.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/misc/icons/ffffff/chevron-right.svg" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/misc/icons/ffffff/chevron-right.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/admin_toolbar/src/Tests/AdminToolbarAlterTest.php" afterPath="$PROJECT_DIR$/modules/contrib/admin_toolbar/src/Tests/AdminToolbarAlterTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/contrib/devel/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/README.txt" afterPath="$PROJECT_DIR$/modules/contrib/devel/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/composer.json" afterPath="$PROJECT_DIR$/modules/contrib/devel/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/config/install/devel.settings.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/config/install/devel.settings.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/config/install/devel.toolbar.settings.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/config/install/devel.toolbar.settings.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/config/install/system.menu.devel.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/config/install/system.menu.devel.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/config/schema/devel.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/config/schema/devel.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/css/devel-rtl.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/css/devel-rtl.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/css/devel.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/css/devel.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/css/devel.toolbar.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/css/devel.toolbar.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.api.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.api.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.install" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.install" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.libraries.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.libraries.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.links.menu.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.links.menu.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.links.task.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.links.task.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.module" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.permissions.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.permissions.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel.services.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel.services.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/README.txt" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/devel_generate.batch.inc" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/devel_generate.batch.inc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/devel_generate.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/devel_generate.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/devel_generate.module" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/devel_generate.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/devel_generate.permissions.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/devel_generate.permissions.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/devel_generate.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/devel_generate.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/devel_generate.services.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/devel_generate.services.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/drush/DevelGenerateUnishTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/drush/DevelGenerateUnishTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/drush/devel_generate.drush.inc" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/drush/devel_generate.drush.inc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/Annotation/DevelGenerate.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/Annotation/DevelGenerate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/DevelGenerateBase.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/DevelGenerateBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/DevelGenerateBaseInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/DevelGenerateBaseInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/DevelGenerateException.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/DevelGenerateException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/DevelGeneratePermissions.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/DevelGeneratePermissions.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/DevelGeneratePluginManager.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/DevelGeneratePluginManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/Form/DevelGenerateForm.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/Form/DevelGenerateForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/Plugin/DevelGenerate/MenuDevelGenerate.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/Plugin/DevelGenerate/MenuDevelGenerate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/Plugin/DevelGenerate/TermDevelGenerate.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/Plugin/DevelGenerate/TermDevelGenerate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/Plugin/DevelGenerate/UserDevelGenerate.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/Plugin/DevelGenerate/UserDevelGenerate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/Plugin/DevelGenerate/VocabularyDevelGenerate.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/Plugin/DevelGenerate/VocabularyDevelGenerate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/Routing/DevelGenerateRoutes.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/Routing/DevelGenerateRoutes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/src/Tests/DevelGenerateTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/src/Tests/DevelGenerateTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/tests/modules/devel_generate_example/devel_generate_example.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/tests/modules/devel_generate_example/devel_generate_example.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/tests/modules/devel_generate_example/devel_generate_example.module" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/tests/modules/devel_generate_example/devel_generate_example.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/tests/modules/devel_generate_example/src/Plugin/DevelGenerate/ExampleDevelGenerate.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/tests/modules/devel_generate_example/src/Plugin/DevelGenerate/ExampleDevelGenerate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/devel_generate/tests/src/DevelGenerateManagerTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/devel_generate/tests/src/DevelGenerateManagerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/drush/devel.drush.inc" afterPath="$PROJECT_DIR$/modules/contrib/devel/drush/devel.drush.inc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/drush/develDrushTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/drush/develDrushTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/drush/phpstorm.drush.inc" afterPath="$PROJECT_DIR$/modules/contrib/devel/drush/phpstorm.drush.inc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/icons/bebebe/cog.svg" afterPath="$PROJECT_DIR$/modules/contrib/devel/icons/bebebe/cog.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/icons/ffffff/cog.svg" afterPath="$PROJECT_DIR$/modules/contrib/devel/icons/ffffff/cog.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/README.txt" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint.module" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint.permissions.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint.permissions.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint.services.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint.services.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/.gitignore" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/Kint.class.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/Kint.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/LICENCE" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/LICENCE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/README.md" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/composer.json" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/config.default.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/config.default.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/decorators/plain.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/decorators/plain.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/decorators/rich.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/decorators/rich.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/examples/overview.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/examples/overview.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/inc/kintObject.class.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/inc/kintObject.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/inc/kintParser.class.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/inc/kintParser.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/inc/kintVariableData.class.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/inc/kintVariableData.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/classmethods.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/classmethods.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/classstatics.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/classstatics.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/color.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/color.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/fspath.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/fspath.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/json.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/json.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/microtime.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/microtime.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/objectiterateable.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/objectiterateable.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/splobjectstorage.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/splobjectstorage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/timestamp.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/timestamp.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/custom/xml.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/custom/xml.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/objects/closure.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/objects/closure.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/objects/smarty.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/objects/smarty.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/parsers/objects/splfileinfo.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/parsers/objects/splfileinfo.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/base.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/base.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/base.less" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/base.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/compiled/aante-light.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/compiled/aante-light.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/compiled/kint.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/compiled/kint.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/compiled/original.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/compiled/original.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/compiled/solarized-dark.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/compiled/solarized-dark.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/compiled/solarized.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/compiled/solarized.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/themes/aante-light.less" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/themes/aante-light.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/themes/original.less" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/themes/original.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/themes/solarized-dark.less" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/themes/solarized-dark.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/kint/view/themes/solarized.less" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/kint/view/themes/solarized.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/src/Plugin/Devel/Dumper/Kint.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/src/Plugin/Devel/Dumper/Kint.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/kint/src/Twig/KintExtension.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/kint/src/Twig/KintExtension.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/run-tests-drush.sh" afterPath="$PROJECT_DIR$/modules/contrib/devel/run-tests-drush.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Annotation/DevelDumper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Annotation/DevelDumper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Controller/ContainerInfoController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Controller/ContainerInfoController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Controller/DevelController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Controller/DevelController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Controller/EntityDebugController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Controller/EntityDebugController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Controller/EventInfoController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Controller/EventInfoController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Controller/RouteInfoController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Controller/RouteInfoController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Controller/SwitchUserController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Controller/SwitchUserController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/DevelDumperBase.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/DevelDumperBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/DevelDumperInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/DevelDumperInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/DevelDumperManager.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/DevelDumperManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/DevelDumperManagerInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/DevelDumperManagerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/DevelDumperPluginManager.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/DevelDumperPluginManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/DevelDumperPluginManagerInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/DevelDumperPluginManagerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/EntityTypeInfo.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/EntityTypeInfo.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/EventSubscriber/ErrorHandlerSubscriber.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/EventSubscriber/ErrorHandlerSubscriber.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/EventSubscriber/ThemeInfoRebuildSubscriber.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/EventSubscriber/ThemeInfoRebuildSubscriber.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Form/ConfigEditor.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Form/ConfigEditor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Form/ConfigsList.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Form/ConfigsList.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Form/DevelReinstall.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Form/DevelReinstall.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Form/ExecutePHP.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Form/ExecutePHP.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Form/RouterRebuildConfirmForm.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Form/RouterRebuildConfirmForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Form/SettingsForm.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Form/SettingsForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Form/SwitchUserForm.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Form/SwitchUserForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Form/SystemStateEdit.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Form/SystemStateEdit.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Form/ToolbarSettingsForm.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Form/ToolbarSettingsForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Block/DevelExecutePHP.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Block/DevelExecutePHP.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Block/SwitchUserBlock.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Block/SwitchUserBlock.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Derivative/DevelLocalTask.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Derivative/DevelLocalTask.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Devel/Dumper/ChromePhp.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Devel/Dumper/ChromePhp.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Devel/Dumper/DoctrineDebug.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Devel/Dumper/DoctrineDebug.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Devel/Dumper/DrupalVariable.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Devel/Dumper/DrupalVariable.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Devel/Dumper/FirePhp.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Devel/Dumper/FirePhp.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Devel/Dumper/VarDumper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Devel/Dumper/VarDumper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Mail/DevelMailLog.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Mail/DevelMailLog.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Menu/DestinationMenuLink.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Menu/DestinationMenuLink.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Menu/MenuItemMenuLink.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Menu/MenuItemMenuLink.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Plugin/Menu/RouteDetailMenuLink.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Plugin/Menu/RouteDetailMenuLink.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Routing/RouteSubscriber.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Routing/RouteSubscriber.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Tests/DevelControllerTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Tests/DevelControllerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Tests/DevelDumperTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Tests/DevelDumperTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Tests/DevelMenuLinksTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Tests/DevelMenuLinksTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Tests/DevelReinstallTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Tests/DevelReinstallTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Tests/DevelSwitchUserTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Tests/DevelSwitchUserTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/ToolbarHandler.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/ToolbarHandler.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/src/Twig/Extension/Debug.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/src/Twig/Extension/Debug.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_dumper_test/css/devel_dumper_test.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_dumper_test/css/devel_dumper_test.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_dumper_test/devel_dumper_test.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_dumper_test/devel_dumper_test.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_dumper_test/devel_dumper_test.libraries.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_dumper_test/devel_dumper_test.libraries.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_dumper_test/devel_dumper_test.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_dumper_test/devel_dumper_test.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_dumper_test/js/devel_dumper_test.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_dumper_test/js/devel_dumper_test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_dumper_test/src/Controller/DumperTestController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_dumper_test/src/Controller/DumperTestController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_dumper_test/src/Plugin/Devel/Dumper/AvailableTestDumper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_dumper_test/src/Plugin/Devel/Dumper/AvailableTestDumper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_dumper_test/src/Plugin/Devel/Dumper/NotAvailableTestDumper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_dumper_test/src/Plugin/Devel/Dumper/NotAvailableTestDumper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_entity_test/devel_entity_test.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_entity_test/devel_entity_test.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_entity_test/devel_entity_test.links.task.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_entity_test/devel_entity_test.links.task.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_entity_test/devel_entity_test.module" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_entity_test/devel_entity_test.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_entity_test/src/Entity/DevelEntityTestCanonical.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_entity_test/src/Entity/DevelEntityTestCanonical.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_entity_test/src/Entity/DevelEntityTestEdit.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_entity_test/src/Entity/DevelEntityTestEdit.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_entity_test/src/Entity/DevelEntityTestNoLinks.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_entity_test/src/Entity/DevelEntityTestNoLinks.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_entity_test/src/Plugin/Derivative/DevelEntityTestLocalTasks.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_entity_test/src/Plugin/Derivative/DevelEntityTestLocalTasks.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_test/devel_test.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_test/devel_test.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_test/devel_test.module" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_test/devel_test.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_test/devel_test.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_test/devel_test.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_test/devel_test.services.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_test/devel_test.services.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_test/src/Controller/DevelTestController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_test/src/Controller/DevelTestController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/modules/devel_test/src/Routing/TestRouteSubscriber.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/modules/devel_test/src/Routing/TestRouteSubscriber.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Functional/DevelContainerInfoTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Functional/DevelContainerInfoTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Functional/DevelErrorHandlerTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Functional/DevelErrorHandlerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Functional/DevelEventInfoTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Functional/DevelEventInfoTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Functional/DevelRequirementsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Functional/DevelRequirementsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Functional/DevelRouteInfoTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Functional/DevelRouteInfoTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Functional/DevelRouterRebuildTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Functional/DevelRouterRebuildTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Functional/DevelStateEditorTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Functional/DevelStateEditorTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Functional/DevelToolbarTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Functional/DevelToolbarTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Functional/DevelWebAssertHelper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Functional/DevelWebAssertHelper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Kernel/DevelDumperTestTrait.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Kernel/DevelDumperTestTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Kernel/DevelEnforcedDependenciesTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Kernel/DevelEnforcedDependenciesTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Kernel/DevelMailLogTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Kernel/DevelMailLogTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Kernel/DevelQueryDebugTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Kernel/DevelQueryDebugTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/tests/src/Kernel/DevelTwigExtensionTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/tests/src/Kernel/DevelTwigExtensionTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/README.md" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/composer.json" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/config/install/webprofiler.config.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/config/install/webprofiler.config.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/config/schema/webprofiler.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/config/schema/webprofiler.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/console.services.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/console.services.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/console/translations/en/webprofiler.benchmark.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/console/translations/en/webprofiler.benchmark.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/console/translations/en/webprofiler.export.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/console/translations/en/webprofiler.export.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/console/translations/en/webprofiler.list.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/console/translations/en/webprofiler.list.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/console/translations/es/webprofiler.benchmark.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/console/translations/es/webprofiler.benchmark.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/console/translations/es/webprofiler.export.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/console/translations/es/webprofiler.export.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/console/translations/es/webprofiler.list.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/console/translations/es/webprofiler.list.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/css/app/dashboard.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/css/app/dashboard.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/css/timeline.css" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/css/timeline.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/images/caret-down.svg" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/images/caret-down.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/app/collections/collectors.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/app/collections/collectors.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/app/helpers.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/app/helpers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/app/main.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/app/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/app/models/collector.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/app/models/collector.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/app/routers/collectors.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/app/routers/collectors.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/app/views/collector.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/app/views/collector.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/app/views/collectorsList.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/app/views/collectorsList.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/app/views/details.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/app/views/details.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/app/views/layout.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/app/views/layout.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/database.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/database.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/js/timeline.js" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/js/timeline.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Access/AccessManagerWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Access/AccessManagerWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Asset/CssCollectionRendererWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Asset/CssCollectionRendererWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Asset/JsCollectionRendererWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Asset/JsCollectionRendererWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Cache/CacheBackendWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Cache/CacheBackendWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Cache/CacheFactoryWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Cache/CacheFactoryWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Command/BenchmarkCommand.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Command/BenchmarkCommand.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Command/BenchmarkData.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Command/BenchmarkData.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Command/ExportCommand.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Command/ExportCommand.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Command/ListCommand.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Command/ListCommand.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Compiler/DecoratorPass.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Compiler/DecoratorPass.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Compiler/EventPass.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Compiler/EventPass.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Compiler/ProfilerPass.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Compiler/ProfilerPass.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Compiler/ServicePass.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Compiler/ServicePass.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Compiler/StoragePass.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Compiler/StoragePass.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Config/ConfigFactoryWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Config/ConfigFactoryWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Controller/DashboardController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Controller/DashboardController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Controller/DatabaseController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Controller/DatabaseController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Controller/ToolbarController.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Controller/ToolbarController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/AssetsDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/AssetsDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/BlocksDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/BlocksDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/CacheDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/CacheDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/ConfigDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/ConfigDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/DatabaseDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/DatabaseDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/DevelDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/DevelDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/DrupalDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/DrupalDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/DrupalDataCollectorTrait.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/DrupalDataCollectorTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/EventsDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/EventsDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/ExtensionDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/ExtensionDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/FormsDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/FormsDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/HttpDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/HttpDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/MailDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/MailDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/PerformanceTimingDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/PerformanceTimingDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/PhpConfigDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/PhpConfigDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/RequestDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/RequestDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/RoutingDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/RoutingDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/ServicesDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/ServicesDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/StateDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/StateDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/ThemeDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/ThemeDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/TimeDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/TimeDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/TranslationsDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/TranslationsDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/UserDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/UserDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DataCollector/ViewsDataCollector.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DataCollector/ViewsDataCollector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Decorator.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Decorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DependencyInjection/TraceableContainer.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DependencyInjection/TraceableContainer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/DrupalDataCollectorInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/DrupalDataCollectorInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Entity/Decorators/Config/ConfigEntityStorageDecorator.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Entity/Decorators/Config/ConfigEntityStorageDecorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Entity/Decorators/Config/RoleStorageDecorator.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Entity/Decorators/Config/RoleStorageDecorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Entity/Decorators/Config/ShortcutSetStorageDecorator.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Entity/Decorators/Config/ShortcutSetStorageDecorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Entity/Decorators/Config/VocabularyStorageDecorator.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Entity/Decorators/Config/VocabularyStorageDecorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Entity/EntityDecorator.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Entity/EntityDecorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Entity/EntityManagerWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Entity/EntityManagerWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Entity/EntityViewBuilderDecorator.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Entity/EntityViewBuilderDecorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/EventSubscriber/WebprofilerEventSubscriber.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/EventSubscriber/WebprofilerEventSubscriber.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Form/ConfigForm.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Form/ConfigForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Form/FormBuilderWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Form/FormBuilderWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Form/ProfilesFilterForm.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Form/ProfilesFilterForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Frontend/PerformanceTimingData.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Frontend/PerformanceTimingData.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Helper/ClassShortener.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Helper/ClassShortener.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Helper/ClassShortenerInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Helper/ClassShortenerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Helper/IdeLinkGenerator.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Helper/IdeLinkGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Helper/IdeLinkGeneratorInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Helper/IdeLinkGeneratorInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Http/HttpClientMiddleware.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Http/HttpClientMiddleware.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Mail/MailManagerWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Mail/MailManagerWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Profiler/DatabaseProfilerStorage.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Profiler/DatabaseProfilerStorage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Profiler/FileProfilerStorage.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Profiler/FileProfilerStorage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Profiler/Profiler.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Profiler/Profiler.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Profiler/ProfilerStorageFactory.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Profiler/ProfilerStorageFactory.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Profiler/ProfilerStorageManager.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Profiler/ProfilerStorageManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Profiler/TemplateManager.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Profiler/TemplateManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/RequestMatcher/WebprofilerRequestMatcher.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/RequestMatcher/WebprofilerRequestMatcher.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Routing/TokenConverter.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Routing/TokenConverter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/StackMiddleware/WebprofilerMiddleware.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/StackMiddleware/WebprofilerMiddleware.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/State/StateWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/State/StateWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Stopwatch.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Stopwatch.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/StringTranslation/TranslationManagerWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/StringTranslation/TranslationManagerWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Theme/ThemeNegotiatorWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Theme/ThemeNegotiatorWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/TraceableEventDispatcher.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/TraceableEventDispatcher.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Twig/Dumper/HtmlDumper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Twig/Dumper/HtmlDumper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Twig/Extension/ProfilerExtension.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Twig/Extension/ProfilerExtension.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Views/TraceableViewExecutable.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Views/TraceableViewExecutable.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/Views/ViewExecutableFactoryWrapper.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/Views/ViewExecutableFactoryWrapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/src/WebprofilerServiceProvider.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/src/WebprofilerServiceProvider.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/assets.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/assets.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/blocks.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/blocks.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/cache.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/cache.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/config.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/config.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/database.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/database.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/devel.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/devel.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/drupal.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/drupal.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/events.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/events.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/extensions.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/extensions.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/forms.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/forms.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/http.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/http.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/mail.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/mail.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/performance_timing.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/performance_timing.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/php_config.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/php_config.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/request.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/request.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/routing.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/routing.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/services.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/services.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/state.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/state.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/theme.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/theme.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/time.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/time.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/translations.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/translations.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/user.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/user.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Collector/views.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Collector/views.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Profiler/webprofiler_dashboard.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Profiler/webprofiler_dashboard.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Profiler/webprofiler_loader.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Profiler/webprofiler_loader.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Profiler/webprofiler_panel.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Profiler/webprofiler_panel.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Profiler/webprofiler_toolbar.css.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Profiler/webprofiler_toolbar.css.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/templates/Profiler/webprofiler_toolbar.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/templates/Profiler/webprofiler_toolbar.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/tests/src/Unit/Cache/CacheDataCollectorTest.php" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/tests/src/Unit/Cache/CacheDataCollectorTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.install" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.install" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.libraries.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.libraries.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.links.menu.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.links.menu.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.links.task.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.links.task.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.make.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.make.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.module" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.permissions.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.permissions.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/devel/webprofiler/webprofiler.services.yml" afterPath="$PROJECT_DIR$/modules/contrib/devel/webprofiler/webprofiler.services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_6TGBLme0mOxsIbGUfVdvCYMNxMgjpzByDfKvpKqS3JM.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_6TGBLme0mOxsIbGUfVdvCYMNxMgjpzByDfKvpKqS3JM.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_DN3_gAtN-nlK8ixv-7uLXM7lKmVLZGHH9fwV8DcKb6Q.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_DN3_gAtN-nlK8ixv-7uLXM7lKmVLZGHH9fwV8DcKb6Q.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_FrxvUGjDIB5uB7qEmd7tyX8LX2-Fu2yzNheSbME-qzs.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_FrxvUGjDIB5uB7qEmd7tyX8LX2-Fu2yzNheSbME-qzs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_GewPJInv5JhrSPOteN-XdZ4WiuqRemqxEEl6z1Vvvcg.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_GewPJInv5JhrSPOteN-XdZ4WiuqRemqxEEl6z1Vvvcg.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_Gi8Pl2Vg-1setm1btl0GJA6jq9_sIQCG4evMZjeqEsA.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Gi8Pl2Vg-1setm1btl0GJA6jq9_sIQCG4evMZjeqEsA.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_KSJhtXMl6cj_BtDMfYRXVV1FCCjqZs0Yd7S0lfsAOJc.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_KSJhtXMl6cj_BtDMfYRXVV1FCCjqZs0Yd7S0lfsAOJc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_NDhh5oS1yfZJFz1B4PuRcmO-7ROOE472hxcZwXHeSGw.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_NDhh5oS1yfZJFz1B4PuRcmO-7ROOE472hxcZwXHeSGw.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_NHa2d9v3V2ruDhVsak8O9hhIW6FRypOrVHekx6gNGTc.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_NHa2d9v3V2ruDhVsak8O9hhIW6FRypOrVHekx6gNGTc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_O8i4FaAgUSiyUj86iziMVamnQUET64cL6NBc4tjhpBI.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_O8i4FaAgUSiyUj86iziMVamnQUET64cL6NBc4tjhpBI.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_Y-R7yQdF0QT0s7vn0u2JeyQ07VmNM1utd0Qcv7gugBs.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Y-R7yQdF0QT0s7vn0u2JeyQ07VmNM1utd0Qcv7gugBs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_Y6f-Yx1jbqu88v0DWNqVaQEfGTRPCBcF7qx41-M9PJ0.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Y6f-Yx1jbqu88v0DWNqVaQEfGTRPCBcF7qx41-M9PJ0.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css__GakW6NSkcsAAHuSHySw5mInhR4ALIrD-VtCwYuIm40.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css__GakW6NSkcsAAHuSHySw5mInhR4ALIrD-VtCwYuIm40.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_cQNK6_7Bitb7N6HpRHw3Avuq0kYwSbuels9iNA-yaxY.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_cQNK6_7Bitb7N6HpRHw3Avuq0kYwSbuels9iNA-yaxY.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_cdb0Deg2F8yVqVqiN_TdEuojlfJDE53XGjKWdhlG6jo.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_cdb0Deg2F8yVqVqiN_TdEuojlfJDE53XGjKWdhlG6jo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_gvThNBGqRWsEBB6qJ7lPArsk_lCWrEmUE6KgBooapKQ.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_gvThNBGqRWsEBB6qJ7lPArsk_lCWrEmUE6KgBooapKQ.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_k1tUbrPJ1bCono7c5FJVcOBIcfmC5hNrGm6QxAbokEc.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_k1tUbrPJ1bCono7c5FJVcOBIcfmC5hNrGm6QxAbokEc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_maOXNmeYomWz0KldySbKNCWfRetfK-oeSFc5ZPTfWg0.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_maOXNmeYomWz0KldySbKNCWfRetfK-oeSFc5ZPTfWg0.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_o00t5pDIfuUEDacylSANR0KZ2Wpdq5kfM80X1LbAEJs.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_o00t5pDIfuUEDacylSANR0KZ2Wpdq5kfM80X1LbAEJs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_ykC-S_TdVJU6zc-zlM4JGLX2Wv7uU2UgNQXf_1WoC9U.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_ykC-S_TdVJU6zc-zlM4JGLX2Wv7uU2UgNQXf_1WoC9U.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/css/css_ywVeBRAAZjQ8hauhlJfYGXEI3Ui0Xl1RPqcVBNQTW-E.css" afterPath="$PROJECT_DIR$/sites/default/files/css/css_ywVeBRAAZjQ8hauhlJfYGXEI3Ui0Xl1RPqcVBNQTW-E.css" />
+    </list>
+    <ignored path=".idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DrupalConfiguration" enabled="true" version="8">
+    <drupalPath>$PROJECT_DIR$</drupalPath>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-hydrator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-feed" />
+      <path value="$PROJECT_DIR$/vendor/stack/builder" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/easyrdf/easyrdf" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php54" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php55" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3201" />
+    <option name="y" value="-257" />
+    <option name="width" value="1462" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-cards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-cards" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-cards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-cards" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-cards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-cards" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contrib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/contrib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58669fc3-f5df-413e-bb07-7acf5bb57c52" name="Default" comment="" />
+      <created>1488464422716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488464422716</updated>
+      <workItem from="1488464425805" duration="1456000" />
+      <workItem from="1488466001254" duration="875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2331000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3201" y="-257" width="1462" height="1053" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25704226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="747" column="23" lean-forward="true" selection-start-line="747" selection-start-column="23" selection-end-line="747" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
