@@ -1,0 +1,25 @@
+uuid: cb531fd2-eb8b-496a-8e75-88f59988ee38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.book.field_isbn
+    - node.type.book
+  module:
+    - user
+id: node.book.default
+targetEntityType: node
+bundle: book
+mode: default
+content:
+  field_isbn:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  links:
+    weight: 100
+hidden: {  }
